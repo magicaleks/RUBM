@@ -1,0 +1,208 @@
+{
+    "contractName": "Ownable",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/magicaleks/dev/web3/AltMagic/RUBM/contracts/interfaces/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/magicaleks/dev/web3/AltMagic/RUBM/contracts/interfaces/Ownable.sol\":{\"keccak256\":\"0x7745180036348ed72292225225af7729f2030a3a1e5cf7c81e905ad2f1ddd27e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c6d91e6f21ae1563d9099000c8b30fef123e640aa3074f9fa357982575eb2d13\",\"dweb:/ipfs/QmTqi8fz5ZRo4ggq4vFBrZG8u8Ve1HWCxorkDgDhV5Veuy\"]}},\"version\":1}",
+    "bytecode": "",
+    "deployedBytecode": "",
+    "sourceMap": "",
+    "deployedSourceMap": "",
+    "sourcePath": "/home/magicaleks/dev/web3/AltMagic/RUBM/contracts/interfaces/Ownable.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "/home/magicaleks/dev/web3/AltMagic/RUBM/contracts/interfaces/Ownable.sol",
+        "exportedSymbols": {
+            "Ownable": [
+                15
+            ]
+        },
+        "id": 16,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".22",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "32:32:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Ownable",
+                "contractDependencies": [],
+                "contractKind": "interface",
+                "fullyImplemented": true,
+                "id": 15,
+                "linearizedBaseContracts": [
+                    15
+                ],
+                "name": "Ownable",
+                "nameLocation": "76:7:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "canonicalName": "Ownable.FacetCutAction",
+                        "id": 5,
+                        "members": [
+                            {
+                                "id": 2,
+                                "name": "Add",
+                                "nameLocation": "110:3:0",
+                                "nodeType": "EnumValue",
+                                "src": "110:3:0"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Update",
+                                "nameLocation": "115:6:0",
+                                "nodeType": "EnumValue",
+                                "src": "115:6:0"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Remove",
+                                "nameLocation": "123:6:0",
+                                "nodeType": "EnumValue",
+                                "src": "123:6:0"
+                            }
+                        ],
+                        "name": "FacetCutAction",
+                        "nameLocation": "94:14:0",
+                        "nodeType": "EnumDefinition",
+                        "src": "89:41:0"
+                    },
+                    {
+                        "canonicalName": "Ownable.FacetCut",
+                        "id": 14,
+                        "members": [
+                            {
+                                "constant": false,
+                                "id": 7,
+                                "mutability": "mutable",
+                                "name": "facetAddress",
+                                "nameLocation": "164:12:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 14,
+                                "src": "156:20:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_address",
+                                    "typeString": "address"
+                                },
+                                "typeName": {
+                                    "id": 6,
+                                    "name": "address",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "156:7:0",
+                                    "stateMutability": "nonpayable",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_address",
+                                        "typeString": "address"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 10,
+                                "mutability": "mutable",
+                                "name": "action",
+                                "nameLocation": "197:6:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 14,
+                                "src": "182:21:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_enum$_FacetCutAction_$5",
+                                    "typeString": "enum Ownable.FacetCutAction"
+                                },
+                                "typeName": {
+                                    "id": 9,
+                                    "nodeType": "UserDefinedTypeName",
+                                    "pathNode": {
+                                        "id": 8,
+                                        "name": "FacetCutAction",
+                                        "nameLocations": [
+                                            "182:14:0"
+                                        ],
+                                        "nodeType": "IdentifierPath",
+                                        "referencedDeclaration": 5,
+                                        "src": "182:14:0"
+                                    },
+                                    "referencedDeclaration": 5,
+                                    "src": "182:14:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_enum$_FacetCutAction_$5",
+                                        "typeString": "enum Ownable.FacetCutAction"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 13,
+                                "mutability": "mutable",
+                                "name": "functionSelectors",
+                                "nameLocation": "218:17:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 14,
+                                "src": "209:26:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_bytes4_$dyn_storage_ptr",
+                                    "typeString": "bytes4[]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 11,
+                                        "name": "bytes4",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "209:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bytes4",
+                                            "typeString": "bytes4"
+                                        }
+                                    },
+                                    "id": 12,
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "209:8:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_bytes4_$dyn_storage_ptr",
+                                        "typeString": "bytes4[]"
+                                    }
+                                },
+                                "visibility": "internal"
+                            }
+                        ],
+                        "name": "FacetCut",
+                        "nameLocation": "141:8:0",
+                        "nodeType": "StructDefinition",
+                        "scope": 15,
+                        "src": "134:106:0",
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 16,
+                "src": "66:176:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "32:211:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": null
+}
