@@ -1,6 +1,6 @@
 # Magic Ruble
 
-@magicaleks Ruble stablecoin implementation 
+[@magicaleks](https://github.com/magicaleks) Ruble stablecoin implementation 
 
 ## Description
 
@@ -17,4 +17,4 @@ Truffle [docs](https://trufflesuite.com/docs/)
 
 ## Authors
 
-@magicaleks
+[@magicaleks](https://github.com/magicaleks)
